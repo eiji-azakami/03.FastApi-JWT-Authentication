@@ -1,0 +1,18 @@
+{
+  // 非表示
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/.env": true
+  },
+  // source format ruff
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.ruff": "explicit"
+  },
+  "python-envs.pythonProjects": [],
+  "python.defaultInterpreterPath": "venv\\Scripts\\python.exe",
+  "CodeGPT.apiKey": "OpenAI"
+}
