@@ -8,11 +8,14 @@ FastAPI JWT認証 サンプル
 - ログ出力は左記を利用 [01.FastApi-Logging](https://github.com/eiji-azakami/01.FastApi-Logging)
 - テスト付き（pytest）
 
+## Demo
+Cloud Run サーバーレス構成サンプル<br>
+https://fastapijwtauthentication-347911280466.asia-northeast1.run.app/docs
+
 ## 設定
 .env.example に従って、.env を作成してください。
 
 ## 環境セットアップ
-
 pythonコマンドは環境によって「python3」だったり、「python」、「py」だったりするようです。<br>
 お使いの環境に合わせてコマンドを変更してください。
 
